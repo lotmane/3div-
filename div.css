@@ -1,0 +1,38 @@
+.bloc1{
+    border: solid 1px #666;
+    text-align: center;
+}
+
+@media (max-width:600px) {
+    .bloc1{
+        border: solid 1px #666;
+        text-align: center;
+        background-color: pink;
+    }
+}
+
+@media (min-width:900px) {
+    .bloc2{
+        background-color: orange;
+    }
+}
+
+@media (min-width:600px) and (max-width:900px) {
+      
+        .bloc3{
+            background-color: blue ;
+        }
+      
+}
+
+.bloc2{
+    border: solid 1px #666;
+    text-align: center;
+}
+
+
+
+.bloc3{
+    border: solid 1px #666;
+    text-align: center;
+}
